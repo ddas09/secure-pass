@@ -17,6 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SecurePass.Common\SecurePass.Common.csproj" />
     <ProjectReference Include="..\SecurePass.DAL\SecurePass.DAL.csproj" />
     <ProjectReference Include="..\SecurePass.Data\SecurePass.Data.csproj" />
     <ProjectReference Include="..\SecurePass.Services\SecurePass.Services.csproj" />
