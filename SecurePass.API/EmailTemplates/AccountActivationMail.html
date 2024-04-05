@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        background: rgb(226, 224, 224);
+        font-family: Roboto, "Helvetica Neue", sans-serif;
+      }
+
+      .container {
+        width: 80%;
+        max-width: 600px;
+        margin: auto;
+        text-align: center;
+      }
+
+      @media only screen and (max-width: 700px) {
+        .container {
+          width: 100%;
+        }
+      }
+
+      .logo-container {
+        background: black;
+        padding: 20px 0;
+        width: 100%;
+      }
+
+      .app-logo {
+        color: #fff;
+        font-size: 38px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .mail-body {
+        padding: 30px 20px;
+        background: #fff;
+      }
+
+      .subject {
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .btn-action {
+        background-color: #ffef0d;
+        padding: 10px 15px;
+        width: fit-content;
+        margin: auto;
+      }
+
+      .mail-content {
+        margin: 20px 0;
+      }
+
+      .btn-action {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+      }
+
+      .activation-link {
+        color: #1f76e7;
+      }
+
+      .mail-footer {
+        margin-top: 20px;
+        text-align: justify !important;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="logo-container">
+        <div class="app-logo">SecurePass</div>
+      </div>
+
+      <div class="mail-body">
+        <div class="subject">Welcome to SecurePass!</div>
+
+        <div class="mail-content">
+          Hi, <strong>[email]</strong>. To create your account, <br />please
+          click on the button below.
+        </div>
+
+        <a class="btn-action" href="[link]">Create Account</a>
+
+        <div class="mail-content">
+          The verification link will expire in 3 hour(s).
+        </div>
+
+        <div class="mail-content">
+          <b>Not you?</b> If you did not request for this, <br />
+          you can ignore this email.
+        </div>
+
+        <hr />
+
+        <div class="mail-footer">
+          <b>Button not working?</b> Try pasting this URL into your browser:
+          <br />
+          <a class="activation-link" href="[link]"> [link] </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

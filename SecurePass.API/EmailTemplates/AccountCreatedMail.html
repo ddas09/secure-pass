@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        background: rgb(226, 224, 224);
+        font-family: Roboto, "Helvetica Neue", sans-serif;
+      }
+
+      .container {
+        width: 80%;
+        max-width: 600px;
+        margin: auto;
+        text-align: center;
+      }
+
+      @media only screen and (max-width: 700px) {
+        .container {
+          width: 100%;
+        }
+      }
+
+      .logo-container {
+        background: black;
+        padding: 20px 0;
+        width: 100%;
+      }
+
+      .app-logo {
+        color: #fff;
+        font-size: 38px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+
+      .mail-body {
+        padding: 30px 20px;
+        background: #fff;
+      }
+
+      .subject {
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .btn-action {
+        background-color: #ffef0d;
+        padding: 10px 15px;
+        width: fit-content;
+        margin: auto;
+      }
+
+      .mail-content {
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="logo-container">
+        <div class="app-logo">SecurePass</div>
+      </div>
+
+      <div class="mail-body">
+        <div class="subject">Welcome to SecurePass!</div>
+
+        <div class="mail-content">
+          Hi, <strong>[email]</strong>. Your SecurePass account has been
+          successfully created.
+        </div>
+
+        <div class="mail-content">
+          Thank you for joining our community.
+          <br />
+          We can't wait to show what's waiting for you.
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

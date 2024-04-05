@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurePass.API", "SecurePass.API\SecurePass.API.csproj", "{B426DCEB-07CC-4EBB-8ADA-6719738951F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurePass.Common", "SecurePass.Common\SecurePass.Common.csproj", "{1E701D3C-3602-4A60-890F-87D35D7E4FDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurePass.DAL", "SecurePass.DAL\SecurePass.DAL.csproj", "{532B9E16-F349-40E0-8693-32FBB3613923}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurePass.Data", "SecurePass.Data\SecurePass.Data.csproj", "{E2EAF799-BB68-4FCA-B8F0-0B6A49A9F0F0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SecurePass.Services", "SecurePass.Services\SecurePass.Services.csproj", "{F84E97F2-A023-40D3-959D-D963E03853FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B426DCEB-07CC-4EBB-8ADA-6719738951F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B426DCEB-07CC-4EBB-8ADA-6719738951F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B426DCEB-07CC-4EBB-8ADA-6719738951F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B426DCEB-07CC-4EBB-8ADA-6719738951F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E701D3C-3602-4A60-890F-87D35D7E4FDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E701D3C-3602-4A60-890F-87D35D7E4FDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E701D3C-3602-4A60-890F-87D35D7E4FDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E701D3C-3602-4A60-890F-87D35D7E4FDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{532B9E16-F349-40E0-8693-32FBB3613923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{532B9E16-F349-40E0-8693-32FBB3613923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{532B9E16-F349-40E0-8693-32FBB3613923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{532B9E16-F349-40E0-8693-32FBB3613923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2EAF799-BB68-4FCA-B8F0-0B6A49A9F0F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2EAF799-BB68-4FCA-B8F0-0B6A49A9F0F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2EAF799-BB68-4FCA-B8F0-0B6A49A9F0F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2EAF799-BB68-4FCA-B8F0-0B6A49A9F0F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F84E97F2-A023-40D3-959D-D963E03853FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F84E97F2-A023-40D3-959D-D963E03853FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F84E97F2-A023-40D3-959D-D963E03853FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F84E97F2-A023-40D3-959D-D963E03853FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E74707B9-1323-4F2F-BDFC-3E6E56DF1ABB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74707B9-1323-4F2F-BDFC-3E6E56DF1ABB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E74707B9-1323-4F2F-BDFC-3E6E56DF1ABB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E74707B9-1323-4F2F-BDFC-3E6E56DF1ABB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D29E83A-75AE-4FEE-B818-C7989A09A5E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D29E83A-75AE-4FEE-B818-C7989A09A5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D29E83A-75AE-4FEE-B818-C7989A09A5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D29E83A-75AE-4FEE-B818-C7989A09A5E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
