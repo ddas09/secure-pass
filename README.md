@@ -119,6 +119,14 @@ Make sure you have the following installed on your machine:
    dotnet restore
    ```
 
+### Running Tests
+
+To run the tests for SecurePass Backend, open a terminal or command prompt, navigate to the project directory, and run:
+
+```bash
+dotnet test
+```
+
 ### Running the Backend
 
 To run the backend API locally:
@@ -127,9 +135,9 @@ To run the backend API locally:
 
 2. Run the API:
 
-   ```bash
-   dotnet run
-   ```
+```bash
+dotnet run
+```
 
 The API will be running at `https://localhost:5001` by default.
 
