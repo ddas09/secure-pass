@@ -11,6 +11,9 @@ SecurePass is designed to securely store and manage passwords for various accoun
 - **Password Records**: CRUD operations for password records, including adding, updating, deleting, and sharing.
 - **Security**: Ensure secure storage and transmission of passwords and sensitive information.
 
+## Demo
+https://github.com/ddas09/secure-pass-webapp/assets/75975903/9b1933a9-b269-4dfa-a876-2f41cec722f1
+
 ## Architecture Diagrams
 
 - **Application Architecture**:
